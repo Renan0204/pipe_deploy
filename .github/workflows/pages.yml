@@ -30,7 +30,7 @@ jobs:
           cp index.html dist/
           # Se tiver assets:
           # cp -r css js images dist/
-          
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
